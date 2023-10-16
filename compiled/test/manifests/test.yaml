@@ -1,5 +1,1 @@
-data: 'bind x.x.x.x
-
-  databases xx
-
-  save xxx xxx'
+data: "bind x.x.x.x\ndatabases xx\nsave xxx xxx"
