@@ -1,0 +1,12 @@
+---
+parameters:
+  kapitan:
+    compile:
+      - output_path: manifests
+        output_type: yaml
+        input_type: kadet
+        input_paths: ${kapitan:manifests}
+    vars:
+      target: ${target_name}
+    manifests:
+      - components/component
